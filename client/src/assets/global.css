@@ -1,0 +1,72 @@
+.fc-ta-center {
+  text-align: center;
+}
+
+.fc-float-right {
+  float: right;
+}
+.fc-float-left {
+  float: left;
+}
+
+.fc-text-bold {
+  font-weight: 600;
+}
+
+.fc-login-view {
+  /* background-image: url('/static/background.jpg'); */
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/fcuc-hrms-dev/public/background.jpg);
+  background-size: cover;
+}
+
+.fc-login-logo {
+  width: 150px;
+  margin: 10px 5px;
+}
+
+.fc-container {
+  width: 550px;
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.fc-login-form {
+  padding: 0 10px;
+}
+
+.fc-password-reset {
+  text-decoration: underline;
+  color: #2b2bca;
+  cursor: pointer;
+}
+
+.fc-text-capitalize {
+  text-transform: capitalize;
+}
+
+.fc-dashboard-logo {
+  width: 105px;
+}
+
+.fc-dialog-background {
+  background: #fafafa;
+  padding: 20px 25px;
+}
+
+.fc-dialog-btn-style {
+  float: right;
+}
+
+@media only screen and (max-width: 599px) {
+  .fc-container {
+    width: 100%;
+  }
+
+  .fc-dashboard-logo {
+    width: 80px;
+  }
+}
+
+
